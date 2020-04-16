@@ -96,7 +96,9 @@ public class E10MyFriendInfoBook {
 		System.out.println("6.삭제");
 		System.out.println("7.프로그램종료");
 		System.out.print("메뉴선택>>>");
+		
 	}
+	
 
 	public static void main(String[] args) {
 		
@@ -142,7 +144,7 @@ class FriendInfoHandler{
 	//멤버변수
 	/*
 	Friend타입의 객체배열은 하위클래스인 High, Univ객체를
-	모두 저장할 수 있으므로 하나의 배열내애ㅔ 2개의 객체를
+	모두 저장할 수 있으므로 하나의 배열내에 2개의 객체를
 	동시에 저장하여 관리할 수 있다.
 	 */
 	 private Friend[] myFriends;

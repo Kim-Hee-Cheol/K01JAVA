@@ -88,10 +88,10 @@ public class QuHashSet {
       while(itr.hasNext()) {
          Avengers avengers = itr.next();
          if(searchName.equals(avengers.name)) {
-            //검색렬과가 있다면 플래그를 변경
+            //검색결과가 있다면 플래그를 변경
             searchFlag = true;
             //toString()메소드를 오버라이딩 했으므로 객체를 즉시 출력가능.
-            System.out.println(avengers);
+            System.out.println(avengers.toString());
          }
       }
       if(searchFlag == true) {

@@ -102,7 +102,7 @@ public class Ex02PreDefineException {
 								toDay 참조변수가 가지고 있는 null 값을
 								toString() 메소드를 통해 String형태로
 								반환되어 출력된다. 에외는 발생하지 않는다.
-							*/
+							    */
 		try {
 			/*
 			참조변수가 참조할 객체가 없는 상태이므로 해당 메소드를

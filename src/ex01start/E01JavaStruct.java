@@ -24,5 +24,20 @@ public class E01JavaStruct {
 		System.out.println("변경된 날짜:" + toDayString);
 
 	}
+	 public int getCharNumber(String str, char c) {
+
+		   int count = 0;
+
+		   for(int i=0;i<str.length();i++) {
+
+		        if(str.charAt(i) == c)
+
+		            count++;
+
+		   }
+
+		   return count;
+
+		    }
 
 }

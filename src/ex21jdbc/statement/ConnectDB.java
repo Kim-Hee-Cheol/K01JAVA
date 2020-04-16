@@ -84,10 +84,8 @@ public abstract class ConnectDB {
 	/*
 	오버라이딩을 목적으로 정의한 추상메소드
 	 */
-
 	public static void main(String[] args) {
 	
-
 	}
 
 }

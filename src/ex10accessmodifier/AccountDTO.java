@@ -13,7 +13,7 @@ public class AccountDTO {
 	private String name;
 	private String accountNumber;
 	private int balance;
-	//기본생상자, 인자생성자 (필요한 경우에만 정의한다.)
+	//기본생성자, 인자생성자 (필요한 경우에만 정의한다.)
 	public AccountDTO() {}
 	public AccountDTO(String name, String accountNumber, int balance) {
 		

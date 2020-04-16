@@ -19,7 +19,8 @@ public class Circle implements IFigure, IDrawable{
 	}
 	@Override
 	public void area(String figureName) {
-		System.out.println(figureName +"의 면적(r*r*PI):"+ radius*radius*Math.PI);;
+		System.out.println(figureName +"의 면적(r*r*PI):"
+	    + radius*radius*Math.PI);;
 	}
 
 }
