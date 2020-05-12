@@ -44,8 +44,8 @@ public class E05For {
 		 */
 		int total = 0;
 		//방법1: if문을 통한 구현
-		for(int i=1 ; i<=10 ; i++) {
-			if(i%2==0) {
+		for(int i=1 ; i<=100 ; i++) {
+			if(i%3==0) {
 				total += i;
 			}
 		}

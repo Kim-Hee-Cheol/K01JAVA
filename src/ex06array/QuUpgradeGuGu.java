@@ -29,6 +29,20 @@ public class QuUpgradeGuGu {
 			}
 		}
 	}
+public static String getGender() {
+		
+		String jumin = "970121-1214241";
+		char ch = jumin.charAt(7);
+		if(ch==1 || ch==3) {
+			return "남자";
+		}
+		else if(ch==2 || ch==4) {
+			return "여자";
+		}
+		else {
+			return "외국인";
+		}
+	}
 	
 }
 

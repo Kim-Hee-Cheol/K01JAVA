@@ -19,6 +19,8 @@ public class E01ArithOperator {
 		 
 		 int result = 3 * 2 + 5 % 2 - 6 / 3 * 5;
 		 System.out.println("결과는?"+ result);//-3
+		 
+	
 	}
 
 }
