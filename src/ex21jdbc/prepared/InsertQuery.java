@@ -43,7 +43,7 @@ public class InsertQuery extends IConnectImpl{
 			psmt.setDate(4, sqlDate);
 			
 			/*
-			인파라미터 설정 시 사용하는 메솓
+			인파라미터 설정 시 사용하는 메소드
 			 	쿼리문에 ?가 있는 부분에 인덱스로 접근해서 설정한다.
 			 	자료형이
 			 		숫자면 setInt()
